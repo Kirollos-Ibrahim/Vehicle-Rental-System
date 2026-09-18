@@ -1,9 +1,5 @@
-
----
-
 ### `test/README.md`
 
-```markdown
 # Tests
 
 This directory contains the testing and Gradle configuration used to validate components of the **Vehicle Rental System**.
