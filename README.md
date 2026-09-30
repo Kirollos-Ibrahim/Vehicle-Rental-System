@@ -74,62 +74,62 @@ Total Cost = Number of Rental Days × Vehicle Price Per Day
 
 ```
 Vehicle Rental System JavaFX/
-
-  src/
-    Booking/
-      Booking.java
-      Payment.java
-  
-  Exceptions/
-    BookingNotFoundException.java
-    UserNotFoundException.java
-    VehicleNotFoundException.java
-    VehicleUnavailableException.java
-  
-  Interfaces/
-    Displayable.java
-    Payable.java
-  
-  Service/
-    RentalManager.java
-  
-  Users/
-    User.java
-  
-  Vehicles/
-    Vehicle.java
-    Car.java
-    Bike.java
-    Van.java
-    enums/
-      VehicleType.java
-      CarType.java
-      BikeType.java
-      VanType.java
-  
-  VehicleStyle/
-    VehicleStyle.java
-  
-  rentalfx/
-    RentalFX.java
-  
-  UI/
-    JavaFXApllication5.java
-  
-  Test/
-    BikeTest.java
-  
-  Main.java
-  
-  test/
-    build.gradle
-    settings.gradle
-    gradlew
-    gradlew.bat
-    src/
-
-  production/
-  build/
-  RentalFX.iml
+│
+├── src/
+│   ├── Booking/
+│   │   ├── Booking.java
+│   │   └── Payment.java
+│   │
+│   ├── Exceptions/
+│   │   ├── BookingNotFoundException.java
+│   │   ├── UserNotFoundException.java
+│   │   ├── VehicleNotFoundException.java
+│   │   └── VehicleUnavailableException.java
+│   │
+│   ├── Interfaces/
+│   │   ├── Displayable.java
+│   │   └── Payable.java
+│   │
+│   ├── Service/
+│   │   └── RentalManager.java
+│   │
+│   ├── Users/
+│   │   └── User.java
+│   │
+│   ├── Vehicles/
+│   │   ├── Vehicle.java
+│   │   ├── Car.java
+│   │   ├── Bike.java
+│   │   ├── Van.java
+│   │   └── enums/
+│   │       ├── VehicleType.java
+│   │       ├── CarType.java
+│   │       ├── BikeType.java
+│   │       └── VanType.java
+│   │
+│   ├── VehicleStyle/
+│   │   └── VehicleStyle.java
+│   │
+│   ├── rentalfx/
+│   │   └── RentalFX.java
+│   │
+│   ├── UI/
+│   │   └── JavaFXApllication5.java
+│   │
+│   ├── Test/
+│   │   └── BikeTest.java
+│   │
+│   └── Main.java
+│
+├── test/
+│   ├── build.gradle
+│   ├── settings.gradle
+│   ├── gradlew
+│   ├── gradlew.bat
+│   └── src/
+│
+├── production/
+├── build/
+└── RentalFX.iml
 ```
 ---
